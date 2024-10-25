@@ -70,8 +70,9 @@ function Header() {
           
               <form>
                 <Link className="nav-link" to="/cart" style={{marginT:0}}>
-                <sup style={{color:"white",fontSize:15,marginBottom:0} }>{uperCount}</sup>
                   <img src="images/cart.svg" />
+                  <sup style={{color:"white",fontSize:15,marginBottom:0} }>{uperCount}</sup>
+
                 </Link>
              </form>
             
